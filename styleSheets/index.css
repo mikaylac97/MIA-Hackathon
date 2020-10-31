@@ -1,3 +1,7 @@
+html, body, section {
+    font-family: 'Fira Sans', sans-serif;
+}
+
 nav button {
     background-color: transparent;
     border: 1px solid black;
@@ -6,6 +10,10 @@ nav button {
     padding: 10px 20px;
 }
 
+.navbar-brand {
+    margin: 10px 30px;
+    color: #66bb6a;
+}
 
 .header-section {
     max-width: 400px;
