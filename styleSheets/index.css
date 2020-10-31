@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.green-background {
+    background-color: #66bb6a;
+    color: white;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.general-padding {
+    padding: 1.75rem;
+}
+
+.card {
+    border-radius: 0.5rem;
+    width: 20vw;
+}
+
+img {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+}
+
+#new-opportunities .header-title {
+    margin: 2rem 0;
+    padding: 0 18vw;
+}
