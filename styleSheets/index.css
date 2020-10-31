@@ -116,6 +116,16 @@ img {
     max-width: 960px;
 }
 
+.signup-btn {
+    background-color: #66bb6a;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0px 10px 20px lightgray;
+    color: white;
+    width: 200px;
+}
+
 .last-sect div {
     margin: 20px 0px;
 }
