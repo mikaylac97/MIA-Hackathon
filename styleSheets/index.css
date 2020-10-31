@@ -63,11 +63,8 @@ body {
 
 img {
     background-color: white;
-    /* height: 50px; */
     width: 75px;
     margin-bottom: 1rem;
-    border: 1px solid black;
-    border-radius: 50%;
 }
 
 .to-left {
@@ -85,9 +82,16 @@ img {
 }
 
 .testimonial-name {
-    margin: 0;
+    margin: 1.25rem 0 0 0;
+}
+#testimonial-slider .card {
+    width: 350px;
 }
 
-#testimonial-slider .card {
-    width: 400px;
+#testimonial-slider img {
+    background-color: white;
+    width: 75px;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 50%;
 }
