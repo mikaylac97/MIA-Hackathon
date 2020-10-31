@@ -2,6 +2,14 @@ html, body, section {
     font-family: 'Fira Sans', sans-serif;
 }
 
+hr {
+    max-width: 960px;
+}
+
+section {
+    margin: 60px 0px;
+}
+
 nav button {
     background-color: transparent;
     border: 1px solid black;
@@ -20,7 +28,7 @@ nav button {
     margin-top: 50px;
 }
 
-.header-section button {
+.invest-btn {
     background-color: #66bb6a;
     border: 0px;
     border-radius: 5px;
@@ -72,4 +80,51 @@ img {
 #new-opportunities .header-title {
     margin: 6rem 0;
     padding: 0 29%;
+}
+
+.green-txt {
+    color: #66bb6a;
+}
+
+.last-sect {
+    text-align: center;
+    box-shadow: 0px 3px 20px 14px #F5F5F5;
+    padding: 100px 0px;
+    max-width: 960px;
+}
+
+.last-sect div {
+    margin: 20px 0px;
+}
+
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-row li {
+    color: darkgray;
+    font-size: 12px;
+    margin: 20px 0px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.footer-bold {
+    color: black;
+    font-weight: 900;
+}
+
+.footer-end {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-end p {
+    color: darkgray;
+    font-size: 12px;
 }
