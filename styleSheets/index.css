@@ -70,6 +70,43 @@ img {
 }
 
 #new-opportunities .header-title {
-    margin: 6rem 0;
-    padding: 0 29%;
+    margin: 2rem 0;
+    padding: 0 18vw;
 }
+
+.invest-second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section-and {
+    margin: 2rem 0;
+    padding: 0 18vw;
+}
+h4 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.firstSquare{
+    height: 350px;
+    width: 280px;
+    background-color: #66bb6a;
+    text-align: left;
+    flex: auto;
+    flex-direction: column-reverse;
+    flex-wrap: unset;
+    padding: 1.75rem;
+}
+
+.title {
+    width: 150px;
+}
+.invest-first{
+    margin-bottom: 40px;
+}
+
+hr{
+    width: 30px;
+}
+
