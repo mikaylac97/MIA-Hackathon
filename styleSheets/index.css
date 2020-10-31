@@ -69,13 +69,13 @@ body {
     box-shadow: 0px 3px 20px 14px #f5f5f5;
 }
 
-img {
+/* img {
     background-color: white;
     height: 50px;
     width: 50px;
     margin-bottom: 1rem;
     border: 1px solid black;
-}
+} */
 
 #new-opportunities .header-title {
     margin: 6rem 0;
@@ -137,4 +137,14 @@ footer ul {
 .footer-end p {
     color: darkgray;
     font-size: 12px;
+}
+
+/*   BACKGROUND IMGS   */
+
+.farmer-right {
+    background-color: transparent;
+    position: absolute;
+    left: 870px;
+    bottom: 60px;
+    width: 60vw;
 }
